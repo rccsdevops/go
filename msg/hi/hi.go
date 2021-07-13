@@ -1,7 +1,5 @@
 package hi
 
-import "fmt"
-
-func Hi {
-  fmt.Println("Hi from a nested package")
+func Hi() string {
+	return string("hello from nested package on GitHub")
 }
